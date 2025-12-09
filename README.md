@@ -1,7 +1,5 @@
 # MSP430 Embedded Car
 
-> **MSP430-Based Wi-Fi Controlled Vehicle with Autonomous Line-Following:** This project uses the MSP430FR2355 microcontroller and other peripherals such as a FET board, motors, an LCD Dispaly, IR emitters, an IR detector, an ESP32, and a DAC board to allow the car to execute remote-controlled movements and autonomously follow a black line.
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 <!-- Optional: You can add build/status badges here if you have CI or tests -->
@@ -22,8 +20,7 @@
 ---
 
 ## Overview
-
-The MSP430 Embedded Car project implements a small autonomous / semi-autonomous car using the MSP430FR2355TPT microcontroller. The car is capable of detecting a line on the ground (e.g. black tape), following the line automatically using sensor input and wheel control logic, and optionally supporting Wi‑Fi / IoT communication for remote control, telemetry, or configuration.
+This project uses the MSP430FR2355 microcontroller and other peripherals such as a FET board, motors, an LCD Dispaly, IR emitters, an IR detector, an ESP32, and a DAC board to allow the car to execute remote-controlled movements and autonomously detect and follow a black line (e.g. black tape).
 
 
 ---
