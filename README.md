@@ -8,6 +8,7 @@
 * [Overview](#overview)
 * [Features](#features)
 * [Hardware](#hardware)
+* [Software](#software)
 * [License](#license)
 * [Contact](#contact)
 
@@ -30,6 +31,9 @@ The **MSP430 Embedded Car** is a class project that uses the MSP430FR2355 microc
 * Motors
 * IR emitter and detector board
 * ESP32 IOT module
+
+## Software
+This project was built with Code Composer Studio 12.8.1
 
 ## License
 This project is released under the **MIT License.** See the [LICENSE](LICENSE) file for full text.
