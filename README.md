@@ -21,7 +21,7 @@ The **MSP430 Embedded Car** is a class project that uses the MSP430FR2355 microc
 * Sensor calibration for accurate line-detection values
 * Real‑time, interrupt‑driven sensor readings (ADC / timers / ports)
 * Line detection and line‑following logic based on IR detector inputs
-* IOT / Wi-fi communication module support for remote control
+* IOT / Wi-Fi communication module support for remote control
 * Modular code organization for easy customization
 
 ## Hardware
