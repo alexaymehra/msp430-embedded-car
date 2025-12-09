@@ -1,6 +1,6 @@
-# MSP430 Embedded Car 🚗
+# MSP430 Embedded Car
 
-> **Wi‑Fi‑enabled line‑following car built around the MSP430FR2355TPT microcontroller** — combining sensors, motor control, and optional IoT functionality for embedded robotics experimentation.
+> **MSP430-Based Wi-Fi Controlled Vehicle with Autonomous Line-Following:** This project uses the MSP430FR2355 microcontroller and other peripherals such as a FET board, motors, an LCD Dispaly, IR emitters, an IR detector, an ESP32, and a DAC board to allow the car to execute remote-controlled movements and autonomously follow a black line.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -8,8 +8,7 @@
 
 ---
 
-## 📄 Table of Contents
-
+## Table of Contents
 * [Overview](#overview)
 * [Features](#features)
 * [Repository Structure](#repository-structure)
@@ -17,21 +16,19 @@
 * [Build & Flash Instructions](#build--flash-instructions)
 * [Usage](#usage)
 * [Project Status & Limitations](#project-status--limitations)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
 
 ---
 
-## 🔎 Overview
+## Overview
 
 The MSP430 Embedded Car project implements a small autonomous / semi-autonomous car using the MSP430FR2355TPT microcontroller. The car is capable of detecting a line on the ground (e.g. black tape), following the line automatically using sensor input and wheel control logic, and optionally supporting Wi‑Fi / IoT communication for remote control, telemetry, or configuration.
 
-This repo serves as a **reference / proof‑of‑concept** for anyone interested in MSP430‑based embedded robotics and can be extended, modified, or repurposed for custom embedded‑systems applications (e.g. robotics, automation, educational experiments).
 
 ---
 
-## 🚀 Features
+## Features
 
 * Line detection and line‑following logic based on analog/digital sensor inputs
 * Sensor calibration routines for improved detection accuracy
@@ -43,30 +40,7 @@ This repo serves as a **reference / proof‑of‑concept** for anyone interested
 
 ---
 
-## 📁 Repository Structure
-
-```
-/  (root)
-│   main.c                      — Program entry point  
-│   init.c / init_cmds.c        — Initialization and startup routines  
-│   clocks.c                    — MCU clock / oscillator setup  
-│   ports.c / ports.h           — Port and pin definitions / configuration  
-│   timers.c / timer_interrupts.c   — Timer setup and interrupt handlers  
-│   adc.c / adc_interrupts.c         — ADC routines & sensor interrupt‑based reading  
-│   black_line_detect.c / black_line_follow.c — Line detection and line‑following logic  
-│   wheels.c                    — Wheel / motor control logic  
-│   iot.c                       — Optional Wi‑Fi / IoT / communication related code  
-│   display.c / LCD.h           — (Optional) debugging / display / feedback routines  
-│   functions.h / macros.h      — Utility macros and helper functions  
-│   LICENSE                    — Project license (MIT)  
-│   README.md                  — This file  
-```
-
-> You can reorganize or extend modules as needed (e.g. add obstacle detection, PID steering, different sensor types, etc.).
-
----
-
-## 🧰 Hardware & Software Requirements
+## Hardware & Software Requirements
 
 Before building or deploying this project, ensure you have the following:
 
@@ -80,7 +54,7 @@ Before building or deploying this project, ensure you have the following:
 
 ---
 
-## 🛠️ Build & Flash Instructions
+## Build & Flash Instructions
 
 Below is an example using the `msp430‑elf‑gcc` toolchain. Adjust based on your setup / toolchain / MCU variant:
 
@@ -100,7 +74,7 @@ mspdebug rf2500 "prog car_firmware"
 
 ---
 
-## 🚗 Usage
+## Usage
 
 1. Wire up the sensors, motors, power supply, and any optional peripherals (Wi‑Fi module, display, etc.) according to your hardware setup.
 2. Calibrate sensors if needed (e.g. using calibration routines in code).
@@ -112,34 +86,7 @@ mspdebug rf2500 "prog car_firmware"
 
 ---
 
-## ⚠️ Project Status & Limitations
-
-* This project is primarily a **proof-of-concept / learning / educational** repo — not a polished, production-ready robotics platform.
-* **Safety mechanisms** (e.g. obstacle detection, emergency stop) are **not included by default**. If you plan to run this car in a real environment, implement safety checks before use.
-* **Hardware dependencies**: behavior depends heavily on correct wiring, sensor calibration, and motor/hardware reliability.
-* **Limited error-handling and robustness**: the code may not handle hardware faults, misreads, power dropouts, or unexpected conditions gracefully.
-
----
-
-## 🤝 Contributing
-
-Contributions are more than welcome! Here are a few ideas:
-
-* Bug reports or issues (e.g. unexpected behavior, sensor logic edge cases, motor control bugs)
-* Feature enhancements:
-
-  * Obstacle detection (e.g. using ultrasonic / IR distance sensors)
-  * PID control for smoother and more stable line-following
-  * Support for different sensors or motor configurations
-  * Telemetry, logging, and calibration/debug interfaces
-* Improved documentation, wiring diagrams, schematics, or hardware setup guides
-* Porting the project to other MSP430 variants or different microcontrollers / platforms
-
-If you want to contribute — open an issue, start a discussion, or submit a pull request. Please follow consistent code style, add documentation for any new module or feature, and test thoroughly before changing core logic.
-
----
-
-## 📜 License
+## License
 
 This project is released under the **MIT License**. See the [LICENSE](LICENSE) file for full text.
 
@@ -148,4 +95,4 @@ This project is released under the **MIT License**. See the [LICENSE](LICENSE) f
 ## 📬 Contact
 
 Created and maintained by **Alexay Mehra**.
-Feel free to reach out with questions, suggestions, or collaboration ideas — e.g. via GitHub Issues or pull requests.
+
