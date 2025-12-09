@@ -1,5 +1,8 @@
 # MSP430 Embedded Car
-![Language](https://img.shields.io/badge/Language-C-green)
+![Firmware](https://img.shields.io/badge/Firmware-C-green)
+![Microcontroller](https://img.shields.io/badge/Microcontroller-MSP430FR2355-)
+![Topic](https://img.shields.io/badge/Topic-Embedded%20Systems-blue)
+
 
 ## Table of Contents
 * [Overview](#overview)
