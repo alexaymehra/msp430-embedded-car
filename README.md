@@ -10,16 +10,16 @@
 
 ## 📄 Table of Contents
 
-* [Overview](#overview)
-* [Features](#features)
-* [Repository Structure](#repository-structure)
-* [Hardware & Software Requirements](#hardware--software-requirements)
-* [Build & Flash Instructions](#build--flash-instructions)
-* [Usage](#usage)
-* [Project Status & Limitations](#project-status--limitations)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
+* [Overview](##overview)
+* [Features](##features)
+* [Repository Structure](##repository-structure)
+* [Hardware & Software Requirements](##hardware--software-requirements)
+* [Build & Flash Instructions](##build--flash-instructions)
+* [Usage](##usage)
+* [Project Status & Limitations](##project-status--limitations)
+* [Contributing](##contributing)
+* [License](##license)
+* [Contact](##contact)
 
 ---
 
