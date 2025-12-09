@@ -1,23 +1,23 @@
 # MSP430 Embedded Car
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Table of Contents
 * [Overview](#overview)
 * [Features](#features)
 * [Hardware](#hardware)
+* [License](#license)
 * [Contact](#contact)
 
 ## Overview
 The **MSP430 Embedded Car** is a class project that uses the MSP430FR2355 microcontroller and other peripherals to enable remote-controlled movements and functions, as well as autonomous black-line detection and following. This project demonstrates how embedded C programming can be used to control a physical system.
 
 ## Features
+* PWM control for vehicle movement
+* DAC voltage control for stable motion
 * Sensor calibration for accurate line-detection values
 * Real‑time, interrupt‑driven sensor readings (ADC / timers / ports)
 * Line detection and line‑following logic based on IR detector inputs
-* Motor and wheel control abstractions for driving / steering
-* Modular code organization (sensors, wheels, initialization, communication, etc.) for easy customization
-* Optional IoT / Wi‑Fi / communication module support (depending on hardware)
-* Minimal dependencies — designed for bare‑metal microcontroller development
+* IOT / Wi-fi communication module support for remote control
+* Modular code organization for easy customization
 
 ## Hardware
 * MSP430FR2355 microcontroller
@@ -26,6 +26,9 @@ The **MSP430 Embedded Car** is a class project that uses the MSP430FR2355 microc
 * Motors
 * IR emitter and detector board
 * ESP32 IOT module
+
+## License
+This project is released under the **MIT License.** See the [LICENSE](LICENSE) file for full text.
   
 ## Contact
 Created and maintained by **Alexay Mehra**.
