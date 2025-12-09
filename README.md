@@ -4,20 +4,29 @@
 ## Table of Contents
 * [Overview](#overview)
 * [Features](#features)
+* [Hardware](#hardware)
 * [Contact](#contact)
 
 ## Overview
-This project uses the MSP430FR2355 microcontroller and other peripherals such as a FET board, motors, an LCD Dispaly, IR emitters, an IR detector, an ESP32, and a DAC board to allow the car to execute remote-controlled movements and autonomously detect and follow a black line (e.g. black tape).
+The **MSP430 Embedded Car** is a class project that uses the MSP430FR2355 microcontroller and other peripherals to enable remote-controlled movements and functions, as well as autonomous black-line detection and following. This project demonstrates how embedded C programming can be used to control a physical system.
 
 ## Features
-* Line detection and line‑following logic based on analog/digital sensor inputs
-* Sensor calibration routines for improved detection accuracy
-* Real‑time, interrupt‑driven sensor reading (ADC / timers / ports)
+* Sensor calibration for accurate line-detection values
+* Real‑time, interrupt‑driven sensor readings (ADC / timers / ports)
+* Line detection and line‑following logic based on IR detector inputs
 * Motor and wheel control abstractions for driving / steering
 * Modular code organization (sensors, wheels, initialization, communication, etc.) for easy customization
 * Optional IoT / Wi‑Fi / communication module support (depending on hardware)
 * Minimal dependencies — designed for bare‑metal microcontroller development
+
+## Hardware
+* MSP430FR2355 microcontroller
+* LCD display board
+* FET board
+* Motors
+* IR emitter and detector board
+* ESP32 IOT module
   
-## 📬 Contact
+## Contact
 Created and maintained by **Alexay Mehra**.
 
