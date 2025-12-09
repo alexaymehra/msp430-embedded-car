@@ -1,4 +1,5 @@
 # MSP430 Embedded Car
+![Language](https://img.shields.io/badge/Language-C-green)
 
 ## Table of Contents
 * [Overview](#overview)
