@@ -36,7 +36,7 @@ The **MSP430 Embedded Car** is a class project that uses the MSP430FR2355 microc
 This project was built with Code Composer Studio 12.8.1
 
 ## Photos
-[FrontPhoto](docs\car_back_view.jpeg)
+![FrontPhoto](docs/car_back_view.jpeg)
 
 ## License
 This project is released under the **MIT License.** See the [LICENSE](LICENSE) file for full text.
