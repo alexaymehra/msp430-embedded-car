@@ -49,10 +49,10 @@ This project was built with Code Composer Studio 12.8.1
 </p>
 <p align="center">
   <a href="docs/car_left_view.jpeg">
-    <img src="docs/car_left_view.jpeg" width="200">
+    <img src="docs/car_left_view.jpeg" width="300">
   </a>
   <a href="docs/car_right_view.jpeg">
-    <img src="docs/car_right_view.jpeg" width="200">
+    <img src="docs/car_right_view.jpeg" width="300">
   </a>
 </p>
 
