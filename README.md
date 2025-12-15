@@ -9,6 +9,7 @@
 * [Features](#features)
 * [Hardware](#hardware)
 * [Software](#software)
+* [Images](#images)
 * [License](#license)
 * [Contact](#contact)
 
@@ -35,7 +36,7 @@ The **MSP430 Embedded Car** is a class project that uses the MSP430FR2355 microc
 ## Software
 This project was built with Code Composer Studio 12.8.1
 
-## Photos
+## Images
 <p align="center">
   <a href="docs/car_front_view.jpeg">
     <img src="docs/car_front_view.jpeg" width="200">
