@@ -37,11 +37,14 @@ This project was built with Code Composer Studio 12.8.1
 
 ## Photos
 <p align="left">
-  <a href="./car_front_view.jpeg">
+  <a href="Car Front View">
     <img src="docs/car_front_view.jpeg" width="300">
   </a>
-  <a href="./car_back_view.jpeg">
+  <a href="Car Back View">
     <img src="docs/car_back_view.jpeg" width="300">
+  </a>
+  <a href="Car Top View">
+    <img src="docs/car_top_view.jpeg" width="300">
   </a>
 </p>
 
