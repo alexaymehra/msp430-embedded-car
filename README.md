@@ -38,7 +38,7 @@ This project was built with Code Composer Studio 12.8.1
 ## Photos
 <p align="center">
   <a href="./car_front_view.jpeg">
-    <img src="docs/car_front_view.jpeg" width="600">
+    <img src="docs/car_front_view.jpeg" width="300">
   </a>
 </p>
 
