@@ -10,6 +10,7 @@
 * [Hardware](#hardware)
 * [Software](#software)
 * [Images](#images)
+* [Videos](#videos)
 * [License](#license)
 * [Contact](#contact)
 
@@ -57,6 +58,9 @@ This project was built with Code Composer Studio 12.8.1
   </a>
 </p>
 
+## Videos
+[line following](https://youtu.be/s-ASt64qS2Q)
+[remote commands](https://youtu.be/0eoND6Sw71E)
 
 ## License
 This project is released under the **MIT License.** See the [LICENSE](LICENSE) file for full text.
